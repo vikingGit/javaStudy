@@ -1,6 +1,6 @@
-package java;
+package com.xieed.cl;
 
-
+//reference: https://www.journaldev.com/349/java-classloader
 public class ClassLoaderTest {
 
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class ClassLoaderTest {
         System.out.println("class loader for this class: "
                 + ClassLoaderTest.class.getClassLoader());
 
-        System.out.println(com.mysql.jdbc.Blob.class.getClassLoader());
+//        System.out.println(com.mysql.jdbc.Blob.class.getClassLoader());
 
     }
 
